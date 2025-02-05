@@ -1,0 +1,29 @@
+FCFS, or First Come First Serve, is a fundamental scheduling algorithm used in operating systems to manage process execution. 
+This algorithm operates on a simple principle: the process that arrives first in the queue is the one that gets executed first.
+
+Here’s a detailed overview of its characteristics, benefits, and limitations.
+Characteristics of FCFS Scheduling
+
+Non-preemptive: Once a process starts executing on the CPU, it runs until completion without being interrupted by other processes. This means if a long process is running, shorter processes must wait until it finishes.
+FIFO Queue: FCFS uses a First In First Out (FIFO) queue to manage processes. The first process to arrive is placed at the front of the queue and served first.
+Simple Implementation: The algorithm is straightforward to implement and understand, making it accessible for basic scheduling needs.
+
+Benefits of FCFS Scheduling
+
+Fairness: Every process gets an equal opportunity to execute based on its arrival time, which eliminates any bias toward specific processes.
+
+Simplicity: The simplicity of the FCFS algorithm allows for easy coding and integration into existing systems without complex logic.
+
+No Starvation: Every process will eventually get executed since there are no priorities assigned; thus, starvation is not an issue.
+
+Limitations of FCFS Scheduling
+
+High Waiting Time: The non-preemptive nature can lead to long waiting times, particularly if a long-running process is at the front of the queue, causing shorter processes to wait unnecessarily.
+
+Convoy Effect: This occurs when shorter processes get stuck behind a longer process, leading to inefficient CPU utilization and overall performance degradation.
+
+Poor Performance for Interactive Systems: FCFS does not provide quick responses for interactive applications where response time is critical, making it less suitable for such scenarios.
+
+Conclusion
+
+FCFS scheduling is a foundational algorithm in operating systems that emphasizes simplicity and fairness. However, its drawbacks, particularly concerning waiting times and performance inefficiencies, make it less ideal for environments requiring high responsiveness or where process burst times vary significantly

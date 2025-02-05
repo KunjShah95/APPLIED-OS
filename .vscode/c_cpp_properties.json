@@ -1,0 +1,75 @@
+{
+    "configurations": [
+        {
+            "name": "Win64-1",
+            "includePath": [
+                "C:/MinGW/bin"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x86",
+            "mergeConfigurations": false,
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "browse": {
+                "path": [
+                    "C:/MinGW/bin",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Win64-2",
+            "includePath": [
+                "C:/MinGW/bin"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "C:/MinGW/bin",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Win64",
+            "includePath": [
+                "C:/MinGW/bin",
+                "C:/MinGW/mingw32/bin"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x86",
+            "mergeConfigurations": false,
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "browse": {
+                "path": [
+                    "C:/MinGW/bin",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
